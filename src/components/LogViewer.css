@@ -1,0 +1,44 @@
+.log-viewer {
+  margin: 0 auto;
+}
+
+.logs-list {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logs-list li {
+  padding: 0;
+  margin: 30px auto 0px auto;
+  background-color: #ebebeb;
+  width: 50%;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.log-header {
+  font-weight: 600;
+}
+
+.log-body, .log-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-body span, .log-header span {
+  width: 200px;
+}
+
+.logs-list li span {
+  margin: 20px;
+  font-size: 12px;
+}
+
+.logs-list-button {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
